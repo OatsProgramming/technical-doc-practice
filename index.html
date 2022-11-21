@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Document Page</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Python Small Document</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#What_you_shoud_already_know">What_you_shoud_already_know</a></li>
+            <li><a class="nav-link" href="#Hello_World">Hello_World</a></li>
+            <li><a class="nav-link" href="#Mathematics">Mathematics</a></li>
+            <li><a class="nav-link" href="#If_Else_Statements">If_Else_Statements</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.</p>
+                <p>Often, programmers fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.</p>
+                <h4>TL;DR</h4>
+                <ul>
+                    <li>Interpreted, object-oriented, high-level programing language</li>
+                    <li>Syntax is simple; exceptionally more readable than other languages</li>
+                    <li>Increases productivity</li>
+                    <li>Debugging is easy in comparison</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="What_you_shoud_already_know">
+            <header>What_you_shoud_already_know</header>
+            <p>This guide assumes you have the following basic background:</p>
+            <ul>
+                <li>Basic English</li>
+                <li>Mathematics with letters</li>
+                <li>CS50</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Hello_World">
+            <header>Hello_World</header>
+            <p>By tradition, this will be your very first coding tutorial: how to print "hello world". All programming languages have their own way of printing out things to the console.</p>
+            <p>Let's begin:</p>
+            <code>print("hello world")</code>
+            <p>Congrats: you're a programmer!</p>
+            <p>Brian Kernighan actually wrote the first "hello, world" program as part of the documentation for the BCPL programming language developed by Martin Richards. BCPL was used while C was being developed at Bell Labs a few years before the publication of Kernighan and Ritchie's C book in 1972.</p>
+            <p>The code was used for early testing of the C compiler and made its way into Kernighan and Ritchie's book. Later, it was one of the first programs used to test Bjarne Stroustrup's C++ compiler.</p>
+        </section>
+        <section class="main-section" id="Mathematics">
+            <header>Mathematics</header>
+            <p>What's the point of a programming language if you can't do basic math? With python, arithmetic based coding is quite simple. Let's take a look at some examples.</p>
+            <ul>
+                <li>
+                    <p>Addition</p>
+                    <pre><code>print(2+2)</code></pre>
+                </li>
+                <li>
+                    <p>Subtraction</p>
+                    <pre><code>print(2-2)</code></pre>
+                </li>
+                <li>
+                    <p>Multiplication</p>
+                    <pre><code>print(2*2)</code></pre>
+                </li>
+                <li>
+                    <p>Division</p>
+                    <pre><code>print(2/2)</code></pre>
+                </li>
+                <li>
+                    <p>Modulo</p>
+                    <pre><code>print(2%2)</code></pre>
+                </li>
+            </ul>
+        </section>
+        <section class="main-section" id="If_Else_Statements">
+            <header>If_Else_Statements</header>
+            <p>An if statement allows you to run different blocks of code depending on a condition.</p>
+            <pre>
+                <code>
+if 2 == 2:
+    print("This is true")
+else:
+    print("2 does not equal 2")
+                </code>
+            </pre>
+            <p>You can use "elif" for multiple different conditions.</p>
+            <pre>
+                <code>
+x = 5
+
+if x > 4:
+    print("x is greater than 4")
+elif x > 3:
+    print("x is greater than 3")
+else:
+    print("x is less than 3 and 4")
+                </code>
+            </pre>
+        </section>
+    </main>
+</body>
+</html>

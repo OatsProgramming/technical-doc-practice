@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(brown, orange, gold, green);
+    color: black;
+}
+
+header{
+   font-weight: 900;
+   font-size: 2em;
+}
+
+nav ul li{
+    font-size: 1.2rem;
+    margin-left: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+@media (max-width: 450px){
+    nav ul{
+        list-style-type: none;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100%;
+        
+    }
+}
+
+@media (min-width: 451px){
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        flex-flow: column;
+
+    }
+}
+
+
+
+pre{
+    background-color: rgb(226, 149, 149);
+    width: max-content;
+    padding: 0 10px;
+}
+
